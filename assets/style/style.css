@@ -1,0 +1,8 @@
+#message {
+    transition: opacity 1s ease-in-out;
+}
+
+#surprise-image.show {
+    opacity: 1;
+    bottom: 50px; /* L’image monte */
+}

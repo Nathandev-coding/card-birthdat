@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyeux Anniversaire 🎉</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen bg-pink-100 text-center relative overflow-hidden">
+
+    <!-- Canvas pour les confettis (caché au début) -->
+    <canvas id="confetti" class="absolute top-0 left-0 w-full h-full hidden"></canvas>
+
+    <!-- Contenu principal -->
+    <div id="content" class="container mx-auto p-6 transition-opacity duration-500">
+        <h5 id="message" class="text-2xl md:text-5xl font-bold text-pink-600"></h5>
+    </div>
+
+    <!-- Image surprise (cachée au début) -->
+    <img id="surprise-image" src="assets/images/IMG-20231105-WA0031.jpg" class="absolute bottom-[-100px] opacity-0 w-64 md:w-80 transition-all duration-1000" alt="Surprise">
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
